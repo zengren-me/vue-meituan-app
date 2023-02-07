@@ -41,7 +41,6 @@ export default {
     return axios.get('/api/meituan/login', { params });
   },
   register(params) {
-    console.log(params);
     return axios.get('/api/meituan/register', { params });
   },
 };

@@ -45,7 +45,6 @@ export default {
   created() {
     api.getDetail().then((resp) => {
       this.list = resp.data;
-      console.log(resp);
     });
   },
 };
